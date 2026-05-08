@@ -1,0 +1,11 @@
+CREATE DATABASE crud_buku;
+
+USE crud_buku;
+
+CREATE TABLE buku (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    judul_buku VARCHAR(100),
+    nama_pengarang VARCHAR(100),
+    tahun_terbit VARCHAR(10),
+    foto_sampul VARCHAR(255)
+);
